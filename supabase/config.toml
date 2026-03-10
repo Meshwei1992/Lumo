@@ -1,0 +1,7 @@
+project_id = "etilsigqfrdknvttxain"
+
+[functions.analyze-conversation]
+verify_jwt = false
+
+[functions.classify-photo]
+verify_jwt = false

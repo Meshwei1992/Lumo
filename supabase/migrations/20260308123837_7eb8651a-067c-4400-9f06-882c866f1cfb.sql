@@ -1,0 +1,1 @@
+ALTER TABLE public.profile_photos ADD COLUMN category text DEFAULT 'unclassified' CHECK (category IN ('mystery', 'lifestyle', 'social', 'full_face', 'unclassified'));
